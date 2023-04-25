@@ -14,4 +14,6 @@ public class Product {
     @Id
         private int id;
         private ProductType type;
+        private double price;
+        private int requestedQuantity;
 }
